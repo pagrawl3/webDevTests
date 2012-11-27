@@ -1,0 +1,307 @@
+/* 
+Theme Name: Epilogue 
+Theme URI: http://praths.com
+Description: Practice. 
+Author: Pratham Agrawal
+Author URI: http://praths.com
+Version: 0.1 
+.
+General comments/License Statement if any. 
+.
+*/ 
+
+#blog_content{
+    
+    font-family:CFont;
+	font-size:23px;
+    
+
+
+}
+
+#header{
+
+font-family: Cfont;
+}
+
+@charset "UTF-8";
+
+@-webkit-keyframes boxPulse {
+from {
+position:absolute;
+left: 0px;
+top: 50px;
+-webkit-animation-timing-function: ease-out;
+}
+50% {
+position:absolute;
+top:75px;
+}
+to {
+position:absolute;
+left: 0px;
+top: 50px;
+-webkit-animation-timing-function: ease-out;
+}
+}
+
+
+
+body {
+margin: 0px;
+padding: 0px;
+background-image: url(bg.png);
+background-repeat: repeat;
+
+}
+
+@font-face {
+
+    font-family: CFont;
+    src: url('font.otf');
+}
+
+#right_line p {
+	position:relative;
+	left:-38px;
+	top:10px;
+	font-family:CFont;
+	font-size:20px;
+	opacity:0;
+	z-index:99;
+}
+
+#left_line p {
+	position:relative;
+	left:10px;
+	top:22px;
+	font-family:CFont;
+	font-size:23px;
+	opacity:0;
+	z-index:99;
+}
+
+div#box2 {
+	
+	position: relative;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 86em;
+	margin-top: 6%;
+	margin-bottom:auto;
+	
+	
+}
+
+#art {
+	
+	position:absolute;
+	left:525px;
+	top:155px;
+	z-index:2;
+	}
+	
+#bg {
+	position:absolute;
+	left:30px;
+	top: 118px;
+	z-index:1;
+	
+}
+
+
+	
+#mfont  {
+	
+	
+	position:absolute;
+	left:540px;
+	top:210px;
+	z-index:9;
+	font-size:94px;
+	font-family:CFont;
+	color:#FFFFFF;
+	}
+	
+#mtext {
+	
+	position:absolute;
+	left:249px;
+	top:270px;
+	z-index:9;
+
+	}
+	
+#mtext2 {
+	position:absolute;
+	left:250px;
+	top:270px;
+	z-index:10;
+	}
+	
+#mtext2 p {
+	
+	position: relative;
+	font-family:CFont;
+	color:#FFF;
+	font-size:34px;
+	top: -120px;
+	left: 210px;
+	
+	}
+	
+#mask {
+	
+	position:absolute;
+	left:249px;
+	top:270px;
+	z-index:10;
+
+	}
+	
+#bubble {
+	
+	position:absolute;
+	left:552px;
+	top:544px;
+	z-index:4;
+	}
+	
+#art2 {
+	
+	position:absolute;
+	left:525px;
+	top:155px;
+	z-index:3;
+	opacity:0;
+	}
+
+#bubbleFont  {
+	position:absolute;
+	left:570px;
+	top:511px;
+	z-index:4;
+	font-size:48px;
+	font-family:CFont;
+	color:#0F4E79;
+	}
+	
+#left_line {
+	position:absolute;
+	width: 0px;
+	height: 98px;
+	background:#FFFFFF;
+	z-index: 3;
+	top: 364px;
+	left: 570px;
+	opacity:0;
+}
+
+#right_line {
+	position:absolute;
+	width: 0px;
+	height: 77px;
+	background:#FFFFFF;
+	z-index: 99;
+	top: 183px;
+	left: 808px;
+	opacity:0;
+}
+
+
+
+
+div#icon {
+	position:absolute;
+	top: 10px;
+	z-index: 99;
+	background:#FFF;
+	opacity:0;
+	}
+	
+div#icon:hover {
+	position:absolute;
+	
+	-webkit-animation-name: boxPulse;
+	-webkit-animation-duration: 1.7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-delay: .12s;
+
+}
+
+#icon_txt p {
+	position:absolute;
+	top:40px;
+	left: 35px;
+	font-size:54px;
+	font-family:CFont;
+	color:#FFFFFF;
+	}
+	
+#icon_ban img {
+	position:absolute;
+	height:100px;
+	width:210px;
+	top: 70px;
+	left: 25px;
+
+	}
+
+#icon_art img {
+	position:absolute;
+	width: 200px;
+	top:0px;
+	left: 30px;
+	
+	}
+	
+#button1 {
+
+	position: absolute;
+	width: 1300px;
+	height: 175px;
+	background:#FFFFFF;
+	z-index:99;
+	top: 25px;
+	left: 285px;
+	opacity:0;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+    border: 1px solid #2daebf;
+ 
+-moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+-webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+}
+
+#blog_content {
+	
+	margin-left:160px;
+	position: absolute;
+	width: 1300px;
+	background:#FFFFFF;
+	z-index:99;
+	top: 500px;
+	opacity: 0;
+	left: 500px;
+	padding-left:20px;
+	margin-bottom:-70px;
+
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border: 1px solid #2daebf;
+ 
+-moz-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a;
+ 
+-webkit-box-shadow: 1px 1px #007d9a, 2px 2px #007d9a, 3px 3px #007d9a, 4px 4px #007d9a, 5px 5px #007d9a, 6px 6px #007d9a, 7px 7px #007d9a, 8px 8px #007d9a; 
+
+}
+
+#header {
+	
+	position:absolute;
+	width: 1570px;
+	top: -0px;
+}
+
+/* CSS Document */
